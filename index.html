@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../p.css" />
+  </head>
+  <body>
+    <!-- <div class="container" id="id-container" >
+    </div> -->
+    <!-- for start and stop button -->
+    <!-- <div class="main-div">
+        <div class="number" id="timeOut">  0 
+
+        </div>
+        <div class="button">
+            <button class="start" onclick="Begin()">Start</button>
+            <button class="stop" onclick="stop2()">Stop</button>
+        </div>
+    </div> -->
+    <h1 class="heading">Countdown</h1>
+    <div class="upper-div">
+      <div class="main-div">
+        <div class="main-timer">
+          <h1 id="hours" class="h1">00</h1>
+          :
+          <h1 id="min" class="h1">00</h1>
+          :
+          <h1 id="timer" class="h1">00</h1>
+        </div>
+        <div class="button">
+          <button class="start" onclick="starttimer()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M7 13.732c-1.333-.77-1.333-2.694 0-3.464l9-5.196c1.333-.77 3 .192 3 1.732v10.392c0 1.54-1.667 2.502-3 1.732l-9-5.196Z"
+                />
+                <path stroke-linecap="round" d="M4 19V5" />
+              </g>
+            </svg>
+          </button>
+          <button class="stop" onclick="stoptimer()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill="currentColor"
+                d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM7 6h2v8H7V6zm4 0h2v8h-2V6z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="p.js"></script>
+  </body>
+</html>
